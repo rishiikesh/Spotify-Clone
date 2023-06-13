@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Avengers Theme - Avengers Endgame", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Midnight Rain - Taylor Swift", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Akhiyaan - Mitraz", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Titli - Chennai Express", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Ghost - Justin Bieber", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "Images/1.jpg"},
+    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "Images/2.jpg"},
+    {songName: "Avengers Theme - Avengers Endgame", filePath: "songs/3.mp3", coverPath: "Images/3.jpg"},
+    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "Images/4.jpg"},
+    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "Images/5.jpg"},
+    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "Images/6.jpg"},
+    {songName: "Midnight Rain - Taylor Swift", filePath: "songs/2.mp3", coverPath: "Images/7.jpg"},
+    {songName: "Akhiyaan - Mitraz", filePath: "songs/2.mp3", coverPath: "Images/8.jpg"},
+    {songName: "Titli - Chennai Express", filePath: "songs/2.mp3", coverPath: "Images/9.jpg"},
+    {songName: "Ghost - Justin Bieber", filePath: "songs/4.mp3", coverPath: "Images/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
